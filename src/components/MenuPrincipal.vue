@@ -16,7 +16,7 @@
             <br>
             <article class="flexbox" v-if="showImages">
                   <br>
-                  <img id="img1" src="@/assets/arco-iris-no-final-de-uma-paisagem-rodoviaria.jpg" alt="Imagem 1"
+                  <img id="img1" loading="lazy"  rel="preload" src="@/assets/arco-iris-no-final-de-uma-paisagem-rodoviaria.webp" alt="Imagem 1"
                         class="fade-in">
                   <h4>"Serenidade em Cores" - Uma Jornada Interior</h4>
                   <p>Este quadro, intitulado "Serenidade em Cores", não é apenas uma obra de arte, mas uma experiência
@@ -25,7 +25,7 @@
                         um movimento sereno, quase como uma meditação. Ideal para espaços de descanso ou meditação, esta
                         peça agrega valor ao seu ambiente ao promover uma atmosfera de calma e equilíbrio. Adquira este
                         quadro para transformar qualquer cômodo em um refúgio de paz.</p>
-                  <img id="img2" src="@/assets/arvore-fotorrealista-com-galhos-e-tronco-ao-ar-livre-na-natureza.jpg"
+                  <img id="img2" loading="lazy"  rel="preload" src="@/assets/arvore-fotorrealista-com-galhos-e-tronco-ao-ar-livre-na-natureza.webp"
                         alt="Imagem 2" class="fade-in">
                   <h4>"Reflexos da Alma" - A Profundidade do Sentir</h4>
                   <p>"Reflexos da Alma" é mais do que um quadro, é um portal para o interior do ser humano. As cores
@@ -35,9 +35,7 @@
                         embeleza, mas também inspira e provoca reflexão. Um acréscimo poderoso para qualquer ambiente
                         que busca uma atmosfera de profundidade e significado.
                   </p>
-                  <img id="img3"
-                        src="@/assets/folhas-frescas-de-outono-revelam-padrao-organico-vibrante-gerado-por-ia.jpg"
-                        alt="Imagem 3" class="fade-in">
+                  <img id="img3"  loading="lazy" rel="preload" src="@/assets/folhas-frescas-de-outono-revelam-padrao-organico-vibrante-gerado-por-ia.webp" alt="Imagem 3" class="fade-in">
                   <h4>"Explosão de Emoções" - A força das cores</h4>
                   <p>"Explosão de Emoções" é um quadro que captura a intensidade e a paixão da vida em suas mais
                         vibrantes manifestações. As cores audaciosas e contrastantes se entrelaçam em um jogo dinâmico,
@@ -85,14 +83,11 @@ menu {
       list-style-type: none;
 }
 
-
 menu li {
       margin-right: 20px;
       margin-left: 10px;
       margin-top: 20px;
 }
-
-
 
 p {
       text-align: justify;
@@ -155,7 +150,6 @@ button {
             padding: 10px 15px;
             font-size: 0.9rem;
       }
-
       article {
             max-width: 1000px;
             margin: 0 auto;
@@ -166,22 +160,18 @@ button {
       h1 {
             font-size: 1.5rem;
       }
-
       h3 {
             font-size: 1rem;
       }
-
       p,
       h4 {
             margin: 0 10px;
             max-width: 100%;
       }
-
       article {
             flex-direction: column;
             align-items: center;
       }
-
       button {
             padding: 10px 10px;
             font-size: 0.8rem;
@@ -192,18 +182,15 @@ button {
       h1 {
             font-size: 1.25rem;
       }
-
       h3 {
             font-size: 0.875rem;
       }
-
       p,
       h4 {
             margin: 0 5px;
             max-width: 100%;
             font-size: 0.9rem;
       }
-
       button {
             padding: 8px 6px;
             font-size: 0.7rem;
