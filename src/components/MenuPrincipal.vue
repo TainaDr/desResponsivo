@@ -16,7 +16,7 @@
             <br>
             <article class="flexbox" v-if="showImages">
                   <br>
-                  <img id="img1" loading="lazy"  rel="preload" src="@/assets/arco-iris-no-final-de-uma-paisagem-rodoviaria.webp" alt="Imagem 1"
+                  <img id="img1" loading="lazy"  rel="preload" src="@/assets/images/arco-iris-no-final-de-uma-paisagem-rodoviaria.webp" alt="Imagem 1"
                         class="fade-in">
                   <h4>"Serenidade em Cores" - Uma Jornada Interior</h4>
                   <p>Este quadro, intitulado "Serenidade em Cores", não é apenas uma obra de arte, mas uma experiência
@@ -25,7 +25,7 @@
                         um movimento sereno, quase como uma meditação. Ideal para espaços de descanso ou meditação, esta
                         peça agrega valor ao seu ambiente ao promover uma atmosfera de calma e equilíbrio. Adquira este
                         quadro para transformar qualquer cômodo em um refúgio de paz.</p>
-                  <img id="img2" loading="lazy"  rel="preload" src="@/assets/arvore-fotorrealista-com-galhos-e-tronco-ao-ar-livre-na-natureza.webp"
+                  <img id="img2" loading="lazy"  rel="preload" src="@/assets/images/arvore-fotorrealista-com-galhos-e-tronco-ao-ar-livre-na-natureza.webp"
                         alt="Imagem 2" class="fade-in">
                   <h4>"Reflexos da Alma" - A Profundidade do Sentir</h4>
                   <p>"Reflexos da Alma" é mais do que um quadro, é um portal para o interior do ser humano. As cores
@@ -35,7 +35,8 @@
                         embeleza, mas também inspira e provoca reflexão. Um acréscimo poderoso para qualquer ambiente
                         que busca uma atmosfera de profundidade e significado.
                   </p>
-                  <img id="img3"  loading="lazy" rel="preload" src="@/assets/folhas-frescas-de-outono-revelam-padrao-organico-vibrante-gerado-por-ia.webp" alt="Imagem 3" class="fade-in">
+                  <img id="img3"  loading="lazy" rel="preload"
+src="@/assets/images/folhas-frescas-de-outono-revelam-padrao-organico-vibrante-gerado-por-ia.webp" alt="Imagem 3" class="fade-in">
                   <h4>"Explosão de Emoções" - A força das cores</h4>
                   <p>"Explosão de Emoções" é um quadro que captura a intensidade e a paixão da vida em suas mais
                         vibrantes manifestações. As cores audaciosas e contrastantes se entrelaçam em um jogo dinâmico,

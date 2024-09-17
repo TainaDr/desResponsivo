@@ -11,19 +11,19 @@
                   <tr>
                         <td>1</td>
                         <td>Quadro Montanhas</td>
-                        <td><img src="@/assets/pexels-eberhard-grossgasteiger-691668 (1).jpg" alt="" width="50"
+                        <td><img src="@/assets/images/pexels-eberhard-grossgasteiger-691668.jpg" alt="" width="50"
                                     height="50">
                         </td>
                   </tr>
                   <tr>
                         <td>2</td>
                         <td>Quadro Ponte</td>
-                        <td><img src="@/assets/pexels-mohamed-almari-1485894.jpg" alt="" width="50" height="50"></td>
+                        <td><img src="@/assets/images/pexels-mohamed-almari-1485894.jpg" alt="" width="50" height="50"></td>
                   </tr>
                   <tr>
                         <td>3</td>
                         <td>Quadro Praia</td>
-                        <td><img src="@/assets/pexels-pok-rie-2049422.jpg" alt="" width="50" height="50"></td>
+                        <td><img src="@/assets/images/pexels-pok-rie-2049422.jpg" alt="" width="50" height="50"></td>
                   </tr>
             </table>
             <br>

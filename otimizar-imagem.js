@@ -2,8 +2,8 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-const inputFolder = './src/assets/images'; // Pasta de entrada das imagens
-const outputFolder = './dist/assets/images'; // Pasta de saída das imagens otimizadas
+const inputFolder = '@/src/assets/images'; // Pasta de entrada das imagens
+const outputFolder = '@/dist/assets/images'; // Pasta de saída das imagens otimizadas
 
 fs.readdir(inputFolder, (err, files) => {
       if (err) throw err;
